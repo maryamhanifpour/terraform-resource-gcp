@@ -1,0 +1,7 @@
+target_project_id = ""
+
+default_tags = {
+  environment = "dev"
+  owner       = "terraform"
+}
+
