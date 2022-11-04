@@ -1,0 +1,9 @@
+bindings:
+- members:
+  - user:[place holder for user that runs the pipeline]
+  role: roles/iam.serviceAccountAdmin
+- members:
+  - user:[place holder for user that runs the pipeline]
+  role: roles/iam.serviceAccountUser
+etag: BwXsoOcED2U=
+version: 1

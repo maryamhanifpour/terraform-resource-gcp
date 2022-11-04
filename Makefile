@@ -1,5 +1,6 @@
 region ?= europe-north1
-projectid = sandbox-0-367506
+projectid = $(shell gcloud config get project)
+
 tfstate_gcs_bucket = terraform-sandbox-0-state-files
 
 ifndef env 

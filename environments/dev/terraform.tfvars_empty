@@ -1,4 +1,8 @@
-target_project_id = ""
+TODO: Remove the _empty suffix and fill in the the place holde values
+
+target_project_id = "[PLACE HOLDER FOR TARGET PROJECT ID]"
+tf_service_account = "[PLACE HOLDER FOR SERVICE ACCOUNT USED BY TERRAFORM]"
+
 
 default_tags = {
   environment = "dev"

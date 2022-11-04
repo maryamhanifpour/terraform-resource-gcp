@@ -4,8 +4,13 @@ variable "default_tags" {
   default     = {}
 }
 
-variable "hostname" {
-  description = "Compute engine host name"
+variable "tf_service_account" {
+  description = "service account used by terraform to deploy resources"
+  type        = string
+}
+
+variable "region" {
+  description = "region to deploy resources"
   type        = string
 }
 
