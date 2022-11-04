@@ -1,6 +1,8 @@
 # Local .terraform directories
 **/.terraform/*
 
+**/plan_files/*
+
 # Crash log files
 crash.log
 crash.*.log
